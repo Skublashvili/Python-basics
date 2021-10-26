@@ -6,5 +6,6 @@ names = names_string.split(", ")
 # random_name = random.choice(names)
 # print(random_name)
 
-random_name = random.randint(1, len(names)) - 1
-print(names[random_name])
+random_name = random.randint(0, len(names) - 1)
+person_who_will_pay = (names[random_name])
+print(person_who_will_pay + " will pay for a meal today.")
