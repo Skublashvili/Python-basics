@@ -9,11 +9,14 @@ column = int(position[0]) - 1
 row = int(position[1])
 print(column)
 
-if row == 1:
-    row1[column] = "X"
-elif row == 2:
-    row2[column] = "X"
-else:
-    row3[column] = "X"
+selected_row = map[row - 1]
+selected_row[column] = "X"
+
+# if row == 1:
+#     row1[column] = "X"
+# elif row == 2:
+#     row2[column] = "X"
+# else:
+#     row3[column] = "X"
 
 print(f"{row1}\n{row2}\n{row3}")
