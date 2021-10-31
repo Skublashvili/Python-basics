@@ -46,7 +46,7 @@ elif player_choise == 1:
         print("Computer choise:\n" + paper + "\nDraw!")
     else:
         print("Computer choise:\n" + scissors + "\nYou lose")
-else:
+elif player_choise == 2:
     print("Your choise:\n" + scissors)
     if computer_choise == rock:
         print("Computer choise:\n" + rock + "\nYou Lose!")
@@ -54,3 +54,5 @@ else:
         print("Computer choise:\n" + paper + "\nYou Win!")
     else:
         print("Computer choise:\n" + scissors + "\nDraw!")
+else:
+    print("You typed an invalid number, you lose!")
