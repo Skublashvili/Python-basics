@@ -3,3 +3,4 @@
 - Understanding Data Types and How to Manipulate Strings.
 - Control Flow and Logical Operators.
 - Randomisation and Python Lists.
+- Python Loops.
